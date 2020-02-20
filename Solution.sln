@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{BCD817DB-9487-46D2-BBFD-6173CC06457F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiDemo", "DiDemo\DiDemo.csproj", "{3B26EB27-F5DA-4134-9F5B-15AC7E32E3AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiDemo", "DiDemo\DiDemo.csproj", "{3B26EB27-F5DA-4134-9F5B-15AC7E32E3AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperDemo", "AutoMapperDemo\AutoMapperDemo.csproj", "{DD3D82DB-D029-4F6F-B10D-DFD9D2B84AAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperWebApplicationDemo", "AutoMapperWebApplicationDemo\AutoMapperWebApplicationDemo.csproj", "{7EF57580-3126-4016-B138-8B216823EF56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{3B26EB27-F5DA-4134-9F5B-15AC7E32E3AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B26EB27-F5DA-4134-9F5B-15AC7E32E3AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B26EB27-F5DA-4134-9F5B-15AC7E32E3AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD3D82DB-D029-4F6F-B10D-DFD9D2B84AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD3D82DB-D029-4F6F-B10D-DFD9D2B84AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD3D82DB-D029-4F6F-B10D-DFD9D2B84AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD3D82DB-D029-4F6F-B10D-DFD9D2B84AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EF57580-3126-4016-B138-8B216823EF56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF57580-3126-4016-B138-8B216823EF56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF57580-3126-4016-B138-8B216823EF56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF57580-3126-4016-B138-8B216823EF56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
