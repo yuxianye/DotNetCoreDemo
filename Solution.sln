@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperWebApplicationDem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstDb", "CodeFirstDb\CodeFirstDb.csproj", "{17539617-ED32-41E6-BB96-77EC0F196682}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogDemo", "SerilogDemo\SerilogDemo.csproj", "{F9AE524E-9CC5-43F2-B2DE-6BC9948DC050}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{17539617-ED32-41E6-BB96-77EC0F196682}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17539617-ED32-41E6-BB96-77EC0F196682}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17539617-ED32-41E6-BB96-77EC0F196682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9AE524E-9CC5-43F2-B2DE-6BC9948DC050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9AE524E-9CC5-43F2-B2DE-6BC9948DC050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9AE524E-9CC5-43F2-B2DE-6BC9948DC050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9AE524E-9CC5-43F2-B2DE-6BC9948DC050}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
