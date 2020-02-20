@@ -33,7 +33,7 @@ namespace AutoMapperWebApplicationDemo.Controllers
             TestA testA = new TestA() { Id = 10, MyName = "yxy" };
 
             var testB = _mapper.Map<TestADto>(testA);
-
+            _logger.LogError("yuxianye");
 
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast

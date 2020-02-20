@@ -27,6 +27,7 @@ namespace AutoMapperWebApplicationDemo
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddLogging();
             services.AddControllers();
             //services.AddAutoMapper();
             //IServiceCollection services = new ServiceCollection();
@@ -68,6 +69,29 @@ namespace AutoMapperWebApplicationDemo
             {
                 endpoints.MapControllers();
             });
+
+
+
+            //// 
+            //env.ConfigureNLog("nlog.config");
+            ////安装System.Text.Encoding.CodePages
+            //Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+            ////add NLog to ASP.NET Core
+            //loggerFactory.AddNLog();
+            //add NLog.Web
+            // 修改为 CreateWebHostBuilder(args).UseNLog().Build().Run();
+            //app.AddNLogWeb();
+
+
+
+
+
+
+
+
+
+
+
         }
     }
 
