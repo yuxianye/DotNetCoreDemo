@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperDemo", "AutoMappe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperWebApplicationDemo", "AutoMapperWebApplicationDemo\AutoMapperWebApplicationDemo.csproj", "{7EF57580-3126-4016-B138-8B216823EF56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstDb", "CodeFirstDb\CodeFirstDb.csproj", "{17539617-ED32-41E6-BB96-77EC0F196682}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7EF57580-3126-4016-B138-8B216823EF56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EF57580-3126-4016-B138-8B216823EF56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EF57580-3126-4016-B138-8B216823EF56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17539617-ED32-41E6-BB96-77EC0F196682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17539617-ED32-41E6-BB96-77EC0F196682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17539617-ED32-41E6-BB96-77EC0F196682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17539617-ED32-41E6-BB96-77EC0F196682}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
