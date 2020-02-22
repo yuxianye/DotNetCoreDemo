@@ -8,11 +8,13 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Volo.Abp;
 using Volo.Abp.AspNetCore.Mvc;
+using Volo.Abp.Autofac;
 using Volo.Abp.Modularity;
 
 namespace AbpAspNetCoreDemo
 {
     [DependsOn(typeof(AbpAspNetCoreMvcModule))]
+    [DependsOn(typeof(AbpAutofacModule))] // 在模块上添加依赖AbpAutofacModule
     public class AppModule : AbpModule
     {
         public override void OnApplicationInitialization(ApplicationInitializationContext context)
