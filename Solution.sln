@@ -7,13 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiDemo", "DiDemo\DiDemo.csproj", "{3B26EB27-F5DA-4134-9F5B-15AC7E32E3AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperDemo", "AutoMapperDemo\AutoMapperDemo.csproj", "{DD3D82DB-D029-4F6F-B10D-DFD9D2B84AAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMapperDemo", "AutoMapperDemo\AutoMapperDemo.csproj", "{DD3D82DB-D029-4F6F-B10D-DFD9D2B84AAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperWebApplicationDemo", "AutoMapperWebApplicationDemo\AutoMapperWebApplicationDemo.csproj", "{7EF57580-3126-4016-B138-8B216823EF56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMapperWebApplicationDemo", "AutoMapperWebApplicationDemo\AutoMapperWebApplicationDemo.csproj", "{7EF57580-3126-4016-B138-8B216823EF56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstDb", "CodeFirstDb\CodeFirstDb.csproj", "{17539617-ED32-41E6-BB96-77EC0F196682}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirstDb", "CodeFirstDb\CodeFirstDb.csproj", "{17539617-ED32-41E6-BB96-77EC0F196682}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogDemo", "SerilogDemo\SerilogDemo.csproj", "{F9AE524E-9CC5-43F2-B2DE-6BC9948DC050}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerilogDemo", "SerilogDemo\SerilogDemo.csproj", "{F9AE524E-9CC5-43F2-B2DE-6BC9948DC050}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbpConsoleDemo", "AbpConsoleDemo\AbpConsoleDemo.csproj", "{611FDA64-D6CF-4BA3-A968-750657DEE666}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{F9AE524E-9CC5-43F2-B2DE-6BC9948DC050}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9AE524E-9CC5-43F2-B2DE-6BC9948DC050}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9AE524E-9CC5-43F2-B2DE-6BC9948DC050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{611FDA64-D6CF-4BA3-A968-750657DEE666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{611FDA64-D6CF-4BA3-A968-750657DEE666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{611FDA64-D6CF-4BA3-A968-750657DEE666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{611FDA64-D6CF-4BA3-A968-750657DEE666}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
