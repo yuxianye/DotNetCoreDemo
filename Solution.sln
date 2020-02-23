@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirstDb", "CodeFirstDb\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerilogDemo", "SerilogDemo\SerilogDemo.csproj", "{F9AE524E-9CC5-43F2-B2DE-6BC9948DC050}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbpConsoleDemo", "AbpConsoleDemo\AbpConsoleDemo.csproj", "{611FDA64-D6CF-4BA3-A968-750657DEE666}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpConsoleDemo", "AbpConsoleDemo\AbpConsoleDemo.csproj", "{611FDA64-D6CF-4BA3-A968-750657DEE666}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbpAspNetCoreDemo", "AbpAspNetCoreDemo\AbpAspNetCoreDemo.csproj", "{29FE29F7-E24A-4734-8289-2546302DAC9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpAspNetCoreDemo", "AbpAspNetCoreDemo\AbpAspNetCoreDemo.csproj", "{29FE29F7-E24A-4734-8289-2546302DAC9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggerDemo", "SwaggerDemo\SwaggerDemo.csproj", "{50EA4FBB-FCCA-4B57-B284-B2A707D656A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{29FE29F7-E24A-4734-8289-2546302DAC9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29FE29F7-E24A-4734-8289-2546302DAC9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29FE29F7-E24A-4734-8289-2546302DAC9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50EA4FBB-FCCA-4B57-B284-B2A707D656A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50EA4FBB-FCCA-4B57-B284-B2A707D656A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50EA4FBB-FCCA-4B57-B284-B2A707D656A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50EA4FBB-FCCA-4B57-B284-B2A707D656A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
