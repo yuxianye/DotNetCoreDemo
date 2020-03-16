@@ -33,7 +33,7 @@ namespace MongoDbDemo
 
             //Console.WriteLine(collection.ToJson<BsonDocument>());
 
-            var vv = collection.Find(new BsonDocument()).ToList();
+            var vv = collection.Find(new BsonDocument() { { "yuxianye", "MongoDB" } }).ToList();
 
             foreach (var v in vv)
             {
